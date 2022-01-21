@@ -33,7 +33,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              Creative Tim
+              Smart Notary
             </a>
           </div>
         </Col>
@@ -46,7 +46,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Creative Tim
+                About
               </NavLink>
             </NavItem>
 
@@ -56,7 +56,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                About Us
+                Blog
               </NavLink>
             </NavItem>
 
@@ -66,17 +66,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Blog
-              </NavLink>
-            </NavItem>
-
-            <NavItem>
-              <NavLink
-                href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                MIT License
+                Report a Problem
               </NavLink>
             </NavItem>
           </Nav>

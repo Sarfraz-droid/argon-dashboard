@@ -21,6 +21,7 @@ import Maps from "views/examples/Maps.js";
 import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
+import Appointments from "views/examples/Appointments.js";
 import Icons from "views/examples/Icons.js";
 
 var routes = [
@@ -39,7 +40,7 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/maps",
+    path: "/appointments",
     name: "Appointments",
     icon: "ni ni-pin-3 text-orange",
     component: Maps,
@@ -54,7 +55,7 @@ var routes = [
   },
   {
     path: "/tables",
-    name: "VCards",
+    name: "Leads",
     icon: "ni ni-bullet-list-67 text-red",
     component: Tables,
     layout: "/admin",
